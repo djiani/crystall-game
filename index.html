@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystals Collector Game</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Crystals Collector Game</h1>
+            <p class="lead">Let Get Fired By The Magic of Crystals!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="game_description">
+            <p class="p-1">You will be given a randon number at the start of the game
+            </p>
+            <p class="p-1">
+                There are be four crystals below.
+                By clicking on a crytal you will add a specific
+                amount of points to your total score.
+            </p>
+            <p class="p-1">
+                You win the game by matching your total score to random
+                number selected. You lose the game if your total score goes
+                above.
+            </p>
+            <p class="p-1">
+                The value of each crystal is hidden from you until
+                you ckickon it.
+            </p>
+            <p class="p-1">
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+        <div class="row mt-2">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-textm randNum">56</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>wins: <span class="badge badge-light wins">0 </span> </div>
+                <div>Loses: <span class="badge badge-light loses">0</span></div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <img src="assets/images/crystal1.jpg" class="rounded float-left imgBox" alt="crystal image 1 ">
+            <img src="assets/images/crystal2.jpg" class="rounded float-left imgBox" alt="crystal image 2 ">
+            <img src="assets/images/crystal5.jpg" class="rounded float-left imgBox" alt="crystal image 3 ">
+            <img src="assets/images/crystal4.jpg" class="rounded float-left imgBox" alt="crystal image 4 ">
+        </div>
+        <div class="row mt-2">
+            <div class="card m-1">
+                <div class="car-head p-2">
+                    <h3>Your Total score is</h3>
+                    <hr>
+                </div>
+                <div class="card-body">
+                    <p class="card-text p-3 totalScore">0</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
