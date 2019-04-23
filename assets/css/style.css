@@ -16,11 +16,16 @@ body{
 
 .game_description, .box-imgs{
     background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+font-size: 1.2em;
 }
 
 .box_totalScore{
     width: 100%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 
 }

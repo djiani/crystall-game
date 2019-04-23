@@ -16,14 +16,14 @@
 
 <body>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <h1 class="display-1 text-white">Crystals Collector Game</h1>
+        <div class="container text-center text-white">
+            <h1 class="h3">Crystals Collector Game</h1>
             <p class="lead">Let Get Fired By The Magic of Crystals!</p>
         </div>
     </div>
-    <div class="container border border-lg border-dark">
-        <div class="game_description">
-            <p class="p-1">You will be given a randon number at the start of the game
+    <div class="container border border-lg border-dark main mt-2">
+        <div class="game_description mt-2 p-3">
+            <p class="p-1 ">You will be given a randon number at the start of the game
             </p>
             <p class="p-1">
                 There are be four crystals below.
@@ -46,30 +46,34 @@
         <div class="row mt-2">
             <div class="col-6">
                 <div class="card">
-                    <div class="card-body">
-                        <p class="card-textm randNum"> 0 </p>
+                    <div class="card-body text-center">
+                        <h4 class="card-textm randNum p-4"> 0 </h4>
                     </div>
                 </div>
             </div>
             <div class="col-6">
-                <div>wins: <span class="badge badge-light wins">0 </span> </div>
-                <div>Loses: <span class="badge badge-light loses">0</span></div>
+                    <div class="card">
+                            <div class="card-body text-center">
+                                <h4 class="p-2">WINS:  <span class="badge badge-info wins pl-3 ">0</h4>
+                                <h4 class="p-2">LOSES: <span class="badge badge-info loses pl-3">0</span></h4>
+                                </div>
+                        </div>
             </div>
         </div>
-        <div class="row mt-2">
-            <img src="assets/images/crystal1.jpg" class="rounded float-left imgBox crystal1" alt="crystal image 1 ">
-            <img src="assets/images/crystal2.jpg" class="rounded float-left imgBox crystal2" alt="crystal image 2 ">
-            <img src="assets/images/crystal5.jpg" class="rounded float-left imgBox crystal3" alt="crystal image 3 ">
-            <img src="assets/images/crystal4.jpg" class="rounded float-left imgBox crystal3" alt="crystal image 4 ">
+        <div class="row mt-2 box-imgs p-2">
+            <img src="assets/images/crystal1.jpg" class="rounded  imgBox crystal1" alt="crystal image 1 ">
+            <img src="assets/images/crystal2.jpg" class="rounded  imgBox crystal2" alt="crystal image 2 ">
+            <img src="assets/images/crystal5.jpg" class="rounded  imgBox crystal3" alt="crystal image 3 ">
+            <img src="assets/images/crystal4.jpg" class="rounded  imgBox crystal3" alt="crystal image 4 ">
         </div>
-        <div class="row mt-2">
-            <div class="card m-1">
-                <div class="car-head p-2">
+        <div class="row mt-2 ">
+            <div class="card m-3  box_totalScore">
+                <div class="car-head ">
                     <h3>Your Total score is</h3>
                     <hr>
                 </div>
                 <div class="card-body">
-                    <p class="card-text p-3 totalScore"> 0 </p>
+                    <p class="card-text  totalScore"> 0 </p>
                 </div>
             </div>
         </div>
