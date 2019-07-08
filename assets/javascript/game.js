@@ -26,7 +26,8 @@ function checkGain() {
         wins++;
         $(".wins").text(wins);
         //play clap sound
-        $(".clapSound")[0].play();
+        //$(".clapSound")[0].play();
+        document.getElementById("clapSound").play();
         
         $(".box-imgs").css("border","10px solid green");
         setTimeout(function(){
@@ -39,7 +40,7 @@ function checkGain() {
     } else if (totalScore > ranNum) {
         loses++;
         $(".loses").text(loses);
-        $(".errorSound")[0].play();
+        document.getElementById("errorSound").play();
         
         //$(".box-imgs").enable(false);
         $(".box-imgs").css("border","10px solid red");

@@ -16,8 +16,8 @@
 
 <body>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center text-white">
-            <h1 class="h3">Crystals Collector Game</h1>
+        <div class="container text-center">
+            <h1>Crystal Collector Game</h1>
             <p class="lead">Let Get Fired By The Magic of Crystals!</p>
         </div>
     </div>
@@ -60,11 +60,13 @@
                         </div>
             </div>
         </div>
-        <div class="row mt-2 box-imgs p-2">
-            <img src="assets/images/crystal1.jpg" class="rounded  imgBox crystal1" alt="crystal image 1 ">
-            <img src="assets/images/crystal2.jpg" class="rounded  imgBox crystal2" alt="crystal image 2 ">
-            <img src="assets/images/crystal5.jpg" class="rounded  imgBox crystal3" alt="crystal image 3 ">
-            <img src="assets/images/crystal4.jpg" class="rounded  imgBox crystal3" alt="crystal image 4 ">
+        <div class="row mt-2 box-imgs p-2 " >
+            <div class="sub_imgBox">
+                <img src="assets/images/crystal1.jpg" class="rounded  imgBox crystal1" alt="crystal image 1 " disabled>
+                <img src="assets/images/crystal2.jpg" class="rounded  imgBox crystal2" alt="crystal image 2 ">
+                <img src="assets/images/crystal6.jpg" class="rounded  imgBox crystal3" alt="crystal image 3 ">
+                <img src="assets/images/crystal4.jpg" class="rounded  imgBox crystal4" alt="crystal image 4 ">
+            </div>
         </div>
         <div class="row mt-2 ">
             <div class="card m-3  box_totalScore">
@@ -77,6 +79,16 @@
                 </div>
             </div>
         </div>
+
+        <audio controls preload="none" id="clapSound" class="d-none" >
+            <source src="assets/sounds/rightAnswer.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio controls preload="none" id="errorSound" class="d-none" >
+                <source src="assets/sounds/wrongAnswer.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+        </audio>
 
     </div>
 
